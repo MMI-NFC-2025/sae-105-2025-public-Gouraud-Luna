@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : Gouraud
+- PRÉNOM : Luna
+- GROUPE : B1
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/design/MoPGxFIczrsqA0qjWeo6pV/Maquette-SAE-108---Luna-Gouraud?node-id=0-1&p=f&t=pijhByIl25PBRQgh-0
 
 ## Sujet
 
