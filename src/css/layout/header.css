@@ -20,8 +20,8 @@
 }
 
 .header__logo-text {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #fff;
+  font-size: var(--text-logo);
+  font-family: var(--font-logo);
+  color: var(--cream);
   margin: 0;
 }
