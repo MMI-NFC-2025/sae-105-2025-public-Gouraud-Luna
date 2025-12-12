@@ -1,0 +1,60 @@
+.carousel {
+    position: relative;
+    overflow: hidden;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.carousel__inner {
+    display: flex;
+    transition: transform 0.4s ease;
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.carousel__controls {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.carousel__controls button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 0;
+    background: linear-gradient(90deg, var(--orange),var(--));
+    cursor: pointer;
+}
+
+.carousel__controls button:hover {
+    background: #e6e6e6;
+}
+
+.carousel__dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.carousel__dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #444;
+    background: transparent;
+    cursor: pointer;
+}
+
+.carousel__dot.is-active {
+    background: #444;
+}

@@ -1,1 +1,8 @@
-@import "utils/variables.css"
+/*utils*/
+@import "utils/variables.css";
+
+/*base*/
+@import "base/main.css";
+
+/*components*/
+@import "components/menu.css";
