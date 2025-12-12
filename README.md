@@ -6,7 +6,8 @@
 - NOM : Gouraud
 - PRÉNOM : Luna
 - GROUPE : B1
-- URL du site :
+- URL du site : http://sae-105-jumelages.luna-gouraud.fr
+
 - URL FIGMA : https://www.figma.com/design/MoPGxFIczrsqA0qjWeo6pV/Maquette-SAE-108---Luna-Gouraud?node-id=0-1&p=f&t=pijhByIl25PBRQgh-0
 
 ## Sujet
