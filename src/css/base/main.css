@@ -90,7 +90,6 @@ body {
     background: var(--brown);
 }
 
-/* Dates Festival Section */
 .dates-festival {
     background-color: var(--creamy-brown);
     border-radius: 24px;
@@ -135,7 +134,6 @@ body {
     font-size: 1.25rem;
     cursor: pointer;
 }
-/* Découvrir le Festival Section */
 .decouvrir-festival {
     background-color: var(--creamy-brown);
     border-radius: 24px;
@@ -168,8 +166,7 @@ body {
     border-radius: 24px;
     overflow: hidden;
     text-decoration: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background: var(--orange, #d68a1f);
+    background: var(--orange);
 }
 
 .decouvrir-festival__item img {
@@ -182,10 +179,84 @@ body {
 .decouvrir-festival__item .btn {
     width: 100%;
     background-color: var(--brown);
-    color: #fff;
+    color: var(--cream);
     font-weight: 700;
     font-size: 1.15rem;
     text-align: center;
     padding: 18px 0;
     margin: 0;
+}
+.partenaires {
+    background-color: var(--creamy-brown);
+    border-radius: 24px;
+    padding: 30px 20px;
+    margin: 30px 16px;
+}
+
+.partenaires h3 {
+    color: var(--cream);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.partenaires__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.partenaires__item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    border-radius: 50px;
+    background-color: var(--brown);
+    color: var(--cream);
+    text-decoration: none;
+    font-family: var(--font-ensemble);
+    text-align: center;
+    min-height: 50px;
+}
+
+.partenaires__item p {
+    margin: 0;
+}
+
+.contact-btn {
+    background-color: var(--brown);
+    border-radius: 24px;
+    padding: 24px 20px;
+    margin: 30px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.contact-btn p {
+    margin: 0;
+    color: var(--cream);
+}
+
+.texte {
+    font-family: var(--font-ensemble);
+    font-size: var(--text-texte);
+}
+sous-titre {
+    display: block;
+    font-family: var(--font-ensemble);
+    font-size: var(--text-sous-titre);
+}
+
+
+.contact-btn img {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
 }
