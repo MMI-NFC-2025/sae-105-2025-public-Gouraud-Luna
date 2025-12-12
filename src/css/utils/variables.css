@@ -1,0 +1,27 @@
+/* Colors */
+:root {
+    /* Mode 1 */
+    /* color */
+    --brown: #703b05;
+    --cream: #fff7ee;
+    --dark-hero-bob-dylan: #010103;
+    --orange: #eb8900;
+    --creamy-brown: #d1bda9;
+}
+
+/* Typographie */
+:root {
+    /* Mode 1 */
+    /* number */
+    --text-logo: 1rem;
+    --text-sous-titre: 1.125rem;
+    --text-texte: 1.25rem;
+    --text-btn: 1.375rem;
+    --text-h4: 1.4375rem;
+    --text-h3: 1.625rem;
+    --text-h2: 1.875rem;
+    --text-h1: 2.1875rem;
+    /* string */
+    --font-ensemble: Playfair Display;
+    --font-logo: Shrikhand;
+}
