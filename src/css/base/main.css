@@ -264,9 +264,6 @@ sous-titre {
     height: 48px;
     flex-shrink: 0;
 }
-
-/* ========== PROGRAMME PAGE ========== */
-
 .programme__pdf {
     padding: 20px 16px;
     text-align: center;
@@ -355,4 +352,14 @@ sous-titre {
     font-size: var(--text-sous-titre);
     font-family: var(--font-ensemble);
     color: black;
+}
+
+.programme__pdf{
+    background: linear-gradient(180deg, var(--orange), var(--brown));
+    font-size: var(--text-btn);
+    font-family: var(--font-ensemble);
+    margin: 24px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
 }
