@@ -12,6 +12,8 @@
 
 .slide {
     flex: 0 0 100%;
+    border-radius: 7px;
+    overflow: hidden;
 }
 
 .slide img {
@@ -31,7 +33,7 @@
     padding: 8px 12px;
     border-radius: 6px;
     border: 0;
-    background: linear-gradient(90deg, var(--orange),var(--));
+    background: linear-gradient(180deg, var(--orange),var(--brown));
     cursor: pointer;
 }
 
@@ -56,5 +58,5 @@
 }
 
 .carousel__dot.is-active {
-    background: #444;
+    background: var(--brown);
 }
