@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +17,7 @@
     <link rel="manifest" href="/assets/favicon/site.webmanifest">
     <meta name="apple-mobile-web-app-title" content="Jumelages">
 </head>
+
 <body>
     <!-- Header -->
     <header class="header">
@@ -23,33 +25,43 @@
             <img class="header__logo" src="/assets/Icone/Logo.svg" alt="Logo Jumelages">
             <p class="header__logo-text">Jumelages</p>
         </a>
-        <nav id="mainMenu" class="menu" aria-hidden="true">
-            <div class="menu__bar">
-                <div class="menu__brand">
-                    <img src="/assets/Icone/Logo.svg" alt="Logo Jumelages" class="menu__logo">
-                    <span class="menu__title">Jumelages</span>
-                </div>
-                <button class="menu__close" id="menuClose" type="button" aria-label="Fermer le menu">×</button>
+        <button class="menu-toggle" id="menuOpen" type="button" aria-controls="mainMenu" aria-expanded="false">
+            <span></span>
+            Menu
+        </button>
+    </header>
+
+    <!-- Menu drawer -->
+    <nav id="mainMenu" class="menu" aria-hidden="true">
+        <div class="menu__bar">
+            <div class="menu__brand">
+                <img src="/assets/Icone/Logo.svg" alt="Logo Jumelages" class="menu__logo">
+                <span class="menu__title">Jumelages</span>
             </div>
-            <ul class="menu__list">
-                <li><a class="menu__item-acceuil" href="/"><span class="menu__icon"><img src="assets/Icone/House.svg"
-                                alt=""></span><span class="menu__text">Accueil</span></a></li>
-                <li><a class="menu__item" href="/le_festival.html"><span class="menu__icon"></span><span class="menu__text">Le
-                            Festival</span></a></li>
-                <li><a class="menu__item" href="/programme.html"><span class="menu__icon"><img src="assets/Icone/calepin.svg"
-                                alt=""></span><span class="menu__text">Programme</span></a></li>
-                <li><a class="menu__item" href="/artistes.html"><span class="menu__icon"><img
-                                src="assets/Icone/note-de-musique.svg" alt=""></span><span
-                            class="menu__text">Artistes</span></a></li>
-                <li><a class="menu__item" href="/scenes.html"><span class="menu__icon"><img src="assets/Icone/Position.svg"
-                                alt=""></span><span class="menu__text">Scènes</span></a></li>
-                <li><a class="menu__item" href="/infos.html"><span class="menu__icon"><img src="assets/Icone/Information.svg"
-                                alt=""></span><span class="menu__text">Infos pratiques</span></a></li>
-                <li><a class="menu__item" href="/contact.html"><span class="menu__icon"><img
-                                src="assets/Icone/Icône-envellope-seule.svg" alt="icone envelloppe"></span><span
-                            class="menu__text">Contact</span></a></li>
-            </ul>
-        </nav>
+            <button class="menu__close" id="menuClose" type="button" aria-label="Fermer le menu">×</button>
+        </div>
+        <ul class="menu__list">
+            <li><a class="menu__item-acceuil" href="/"><span class="menu__icon"><img src="assets/Icone/House.svg"
+                            alt=""></span><span class="menu__text">Accueil</span></a></li>
+            <li><a class="menu__item" href="/le_festival.html"><span class="menu__icon"></span><span
+                        class="menu__text">Le
+                        Festival</span></a></li>
+            <li><a class="menu__item" href="/programme.html"><span class="menu__icon"><img
+                            src="assets/Icone/calepin.svg" alt=""></span><span class="menu__text">Programme</span></a>
+            </li>
+            <li><a class="menu__item" href="/artistes.html"><span class="menu__icon"><img
+                            src="assets/Icone/note-de-musique.svg" alt=""></span><span
+                        class="menu__text">Artistes</span></a></li>
+            <li><a class="menu__item" href="/scenes.html"><span class="menu__icon"><img src="assets/Icone/Position.svg"
+                            alt=""></span><span class="menu__text">Scènes</span></a></li>
+            <li><a class="menu__item" href="/infos.html"><span class="menu__icon"><img
+                            src="assets/Icone/Information.svg" alt=""></span><span class="menu__text">Infos
+                        pratiques</span></a></li>
+            <li><a class="menu__item" href="/contact.html"><span class="menu__icon"><img
+                            src="assets/Icone/Icône-envellope-seule.svg" alt="icone envelloppe"></span><span
+                        class="menu__text">Contact</span></a></li>
+        </ul>
+    </nav>
     </header>
     <main>
         <!--hero-->
@@ -67,7 +79,7 @@
                 <img src="/assets/Icone/calepin.svg" alt="pictogramme d'un calepin">
                 <p class="sous-titre">
                     Date
-                    <br/>
+                    <br />
                     <span class="texte">
                         28 Août
                     </span>
@@ -100,12 +112,12 @@
         <div class="artiste__biographie">
             <p class="texte">
                 Bob Dylan, de son vrai nom Robert Allen Zimmerman,
-                <br/>
-                est un auteur-compositeur-interprète américain né le 24 mai 1941 
                 <br />
-                à Duluth, dans le Minnesota. 
+                est un auteur-compositeur-interprète américain né le 24 mai 1941
                 <br />
-                Figure majeure du folk et du rock, il marque les années 1960 
+                à Duluth, dans le Minnesota.
+                <br />
+                Figure majeure du folk et du rock, il marque les années 1960
                 <br />
                 avec des chansons engagées.
             </p>
@@ -136,23 +148,24 @@
             </div>
         </div>
     </main>
-        <!-- Footer -->
-        <footer class="footer">
-            <p class="footer__text">
-                <a href="/le_festival.html">
-                    à propos
-                </a>
-                <br />
-                <a href="/contact.html">
-                    contact
-                </a>
-                <br />
-                contact@jumelages.fr
-                <br />
-                &copy; 2025 Festival Jumelages. Tous droits réservés.
-            </p>
-        </footer>
-    
-    
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer__text">
+            <a href="/le_festival.html">
+                à propos
+            </a>
+            <br />
+            <a href="/contact.html">
+                contact
+            </a>
+            <br />
+            contact@jumelages.fr
+            <br />
+            &copy; 2025 Festival Jumelages. Tous droits réservés.
+        </p>
+    </footer>
+
+
 </body>
+
 </html>

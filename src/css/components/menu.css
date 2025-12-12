@@ -112,9 +112,9 @@
 }
 
 .menu__icon {
-  font-size: 20px;
+  font-size: var(--text-logo);
 }
 
 .menu__text {
-  font-weight: 600;
+  font-weight: var(--font-ensemble);
 }
