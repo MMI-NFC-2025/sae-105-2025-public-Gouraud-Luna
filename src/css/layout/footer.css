@@ -1,0 +1,28 @@
+.footer {
+  background-color: var(--brown);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer__link {
+  color: var(--cream);
+  text-decoration: none;
+  font-size: var(--text-sous-titre);
+  font-family: var(--text-ensemble);
+}
+
+.footer__contact {
+  margin: 0;
+  color: var(--cream);
+  font-family: var(--text-ensemble);
+  font-size: var(--text-sous-titre);
+  text-align: right;
+}
