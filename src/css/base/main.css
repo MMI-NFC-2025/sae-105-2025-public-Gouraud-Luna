@@ -1,3 +1,11 @@
+.hero__home{
+    background-image: url(/assets/Image/hero.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 503px;
+}
+
 .carousel {
     position: relative;
     overflow: hidden;
