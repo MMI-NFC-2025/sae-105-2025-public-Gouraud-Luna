@@ -89,3 +89,84 @@
 .carousel__dot.is-active {
     background: var(--brown);
 }
+
+/* Dates Festival Section */
+.dates-festival {
+    background-color: var(--creamy-brown);
+    border-radius: 24px;
+    padding: 30px 20px;
+    margin: 30px 16px;
+}
+
+.dates-festival h3 {
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.dates-festival__list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.dates-festival__item {
+    flex: 0 0 auto;
+}
+
+.dates-festival__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border: 0;
+    border-radius: 20px;
+    background: linear-gradient(180deg, var(--orange), var(--brown));
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.25rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+/* Découvrir le Festival Section */
+.decouvrir-festival {
+    background-color: var(--creamy-brown);
+    border-radius: 24px;
+    padding: 30px 20px;
+    margin: 30px 16px;
+}
+
+.decouvrir-festival h3 {
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.decouvrir-festival__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.decouvrir-festival__item a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 20px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, var(--orange), var(--brown);
+    color: #fff;
+}
