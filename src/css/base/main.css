@@ -2,6 +2,22 @@ body {
     background-color: var(--cream);
 }
 
+h1{
+    font-size: var(--text-h1);
+    font-family: var(--font-ensemble);
+}
+h2{
+    font-size: var(--text-h2);
+    font-family: var(--font-ensemble);
+}
+h3{
+    font-size: var(--text-h3);
+    font-family: var(--font-ensemble);
+}
+h4{
+    font-size: var(--text-h4);
+    font-family: var(--font-ensemble);
+}
 .hero__home {
     background-image: url(/assets/Image/hero.webp);
     background-size: cover;

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erreur 404 Page not found</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <meta name="apple-mobile-web-app-title" content="Jumelages">
+</head>
+<body>
+    <main>
+        <img class="header__logo" src="/assets/Icone/Logo.svg" alt="Logo Jumelages">
+        <h1>
+            Erreur 404
+        </h1>
+        <h2 class="404">
+            Nous sommes désolée mais la page demandé n'existe pas ou a été supprimé.
+        </h2>
+    
+        <form action="https://duckduckgo.com/" method="GET" x-data="{ q:'', }" x-on:submit="q = q + ' site:mmimontbeliard.com'">
+            <label for="q">Text à chercher :</label>
+            <input type="text" id="q" name="q" x-model="q">
+            <button type="submit">Rechercher</button>
+        </form> 
+    </main>
+</body>
+</html>
