@@ -2,7 +2,7 @@ body {
     background-color: var(--cream);
 }
 
-.hero__home{
+.hero__home {
     background-image: url(/assets/Image/hero.webp);
     background-size: cover;
     background-position: center;
@@ -13,6 +13,7 @@ body {
     justify-content: center;
     padding-bottom: 30px;
 }
+
 .hero__button {
     margin-left: 24px;
     margin-right: 24px;
@@ -20,7 +21,7 @@ body {
     padding: 12px 32px;
     border: 0;
     border-radius: 20px;
-    background: linear-gradient(180deg, var(--orange, #d68a1f), var(--brown, #6a3a0b));
+    background: linear-gradient(180deg, var(--orange), var(--brown));
     color: var(--cream);
     font-family: var(--font-ensemble);
     cursor: pointer;
@@ -62,12 +63,12 @@ body {
     padding: 8px 12px;
     border-radius: 6px;
     border: 0;
-    background: linear-gradient(180deg, var(--orange),var(--brown));
+    background: linear-gradient(180deg, var(--orange), var(--brown));
     cursor: pointer;
 }
 
 .carousel__controls button:hover {
-    background: #e6e6e6;
+    background: var(--cream);
 }
 
 .carousel__dots {
@@ -102,7 +103,7 @@ body {
     text-align: center;
     margin-top: 0;
     margin-bottom: 20px;
-    font-size: 1.5rem;
+    font-size: var(--text-h3);
 }
 
 .dates-festival__list {
@@ -130,10 +131,11 @@ body {
     border-radius: 20px;
     background: linear-gradient(180deg, var(--orange), var(--brown));
     color: var(--cream);
-    font-weight: 700;
-    font-size: 1.25rem;
+    font-family: var(--font-ensemble);
+    font-size: var(--text-btn);
     cursor: pointer;
 }
+
 .decouvrir-festival {
     background-color: var(--creamy-brown);
     border-radius: 24px;
@@ -146,7 +148,7 @@ body {
     text-align: center;
     margin-top: 0;
     margin-bottom: 20px;
-    font-size: 1.5rem;
+    font-size: var(--text-h3);
 }
 
 .decouvrir-festival__list {
@@ -180,12 +182,13 @@ body {
     width: 100%;
     background-color: var(--brown);
     color: var(--cream);
-    font-weight: 700;
-    font-size: 1.15rem;
+    font-family: var(--font-ensemble);
+    font-size: var(--text-btn);
     text-align: center;
     padding: 18px 0;
     margin: 0;
 }
+
 .partenaires {
     background-color: var(--creamy-brown);
     border-radius: 24px;
@@ -198,7 +201,7 @@ body {
     text-align: center;
     margin-top: 0;
     margin-bottom: 20px;
-    font-size: 1.5rem;
+    font-size: var(--text-h3);
 }
 
 .partenaires__list {
@@ -248,6 +251,7 @@ body {
     font-family: var(--font-ensemble);
     font-size: var(--text-texte);
 }
+
 sous-titre {
     display: block;
     font-family: var(--font-ensemble);
@@ -261,10 +265,82 @@ sous-titre {
     flex-shrink: 0;
 }
 
-.hero{
+/* ========== PROGRAMME PAGE ========== */
+
+.programme__pdf {
+    padding: 20px 16px;
+    text-align: center;
+}
+
+.programme__pdf-btn {
+    display: inline-block;
+    padding: 14px 40px;
+    border-radius: 50px;
+    background: var(--brown);
+    text-decoration: none;
+    font-family: var(--font-ensemble);
+    font-size: var(--text-btn);
+}
+
+.programme__filters {
+    padding: 20px 16px;
+}
+
+.programme__filters h2 {
+    font-size: var(--text-h2);
+    font-family: var(--font-ensemble);
+    margin: 0 0 20px 0;
+    color: black;
+}
+
+.filter-group {
+    margin-bottom: 24px;
+}
+
+.filter-label {
+    margin: 0 0 12px 0;
+    font-size: var(--text-texte);
+    font-family: var(--font-ensemble);
+    color: black;
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filter-btn {
+    padding: 10px 18px;
+    border: 0;
+    border-radius: 20px;
+    background: var(--brown);
+    color: var(--cream);
+    font-family: var(--font-ensemble);
+    cursor: pointer;
+    font-size: var(--text-btn);
+}
+
+.filter-btn--active {
+    background: var(--orange);
+}
+
+.programme__results {
+    padding: 20px 16px;
+}
+
+.programme__results h2 {
+    font-size: var(--text-h4);
+    font-family: var(--font-ensemble);
+    margin: 0 0 20px 0;
+    color: black;
+}
+
+.hero {
     background-color: var(--creamy-brown);
     text-align: center;
 }
+
 .hero h1 {
     text-align: center;
     font-size: var(--text-sous-titre);

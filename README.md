@@ -11,7 +11,4 @@
 
 ## Sujet
 
-le bouton ne s'affiche pas dans toutes les pages ou alors n'est pas fonctionel
-
-
 [https://moodle.univ-fcomte.fr/mod/page/view.php?id=882862](https://moodle.univ-fcomte.fr/mod/page/view.php?id=882862)

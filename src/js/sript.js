@@ -22,8 +22,10 @@
 	document.addEventListener('keydown', (e) => {
 		if (e.key === 'Escape') setMenuState(false);
 	});
-
-    /*Carousel*/
+})();
+/*Carousel*/
+(() => {
+    
 	const carousel = document.querySelector('.carousel');
 	if (!carousel) return;
 

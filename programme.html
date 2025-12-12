@@ -63,47 +63,41 @@
     </header>
     <!--Contenu principale-->
     <main>
-        <div class="hero">
-            <h1>
-                Programme complet
-            </h1>
-            <p class="sous-titre">
-                découvrez tous les artistes par jour et scènes
-            </p>
+        <!-- Hero-->
+        <section class="hero">
+            <h1>Programme complet</h1>
+            <p>découvrez tous les artistes par jour et scènes</p>
+        </section>
         </div>
-        <div class="btn-programme">
-            <button class="btn">
-                Programme en pdf
-            </button>
-        </div>
-        <div class="filtrage">
-            <h3>Filtres</h3>
-            <p class="texte">
-                Jour
-            </p>
-        </div>
-        <!-- Filtres Jour -->
-        <div class="filtrage">
-            <span>Jour</span>
-            <button class="btn-filter active" data-filter-day="all">Tous</button>
-            <button class="btn-filter" data-filter-day="2025-06-06">28 Août</button>
-            <button class="btn-filter" data-filter-day="2025-06-07">29 Août</button>
-            <button class="btn-filter" data-filter-day="2025-06-08">30 Août</button>
-        </div>
-        <!-- Filtres Scène -->
-        <div class="filter-group">
-            <span>Scène</span>
-            <button class="btn-filter active" data-filter-stage="all">Toute</button>
-            <button class="btn-filter" data-filter-stage="racine">Racine</button>
-            <button class="btn-filter" data-filter-stage="neon">Néon</button>
-            <button class="btn-filter" data-filter-stage="atlas">Atlas</button>
-            <button class="btn-filter" data-filter-stage="nova">Nova</button>
-        </div>
-        <div class="resultat">
-            <p class="texte">
-                Résultat
-            </p>
-        </div>
+        <section class="programme__filters">
+            <h2>Filtres</h2>
+            <div class="filter-group">
+                <p class="filter-label">Jour</p>
+                <div class="filter-buttons">
+                    <button class="filter-btn filter-btn--active" data-filter-day="all">Tous</button>
+                    <button class="filter-btn" data-filter-day="28-aout">28 août</button>
+                    <button class="filter-btn" data-filter-day="29-aout">29 août</button>
+                    <button class="filter-btn" data-filter-day="30-aout">30 août</button>
+                </div>
+            </div>
+
+            <!-- Stage -->
+            <div class="filter-group">
+                <p class="filter-label">Scène</p>
+                <div class="filter-buttons">
+                    <button class="filter-btn filter-btn--active" data-filter-stage="all">Toute</button>
+                    <button class="filter-btn" data-filter-stage="racine">Racine</button>
+                    <button class="filter-btn" data-filter-stage="neon">Néon</button>
+                    <button class="filter-btn" data-filter-stage="atlas">Atlas</button>
+                    <button class="filter-btn" data-filter-stage="nova">Nova</button>
+                </div>
+            </div>
+        </section>
+        <section class="programme__results">
+            <h2>Résultats</h2>
+            <div id="resultsContainer">
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
