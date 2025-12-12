@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 12px 16px;
-  background: linear-gradient(180deg, var(--orange, #d68a1f), var(--brown, #6a3a0b));
+  background: linear-gradient(180deg, var(--orange), var(--brown));
 }
 
 .header__link {
