@@ -1,4 +1,29 @@
 (() => {
+	/* Menu*/
+	const menu = document.getElementById('mainMenu');
+	const openBtn = document.getElementById('menuOpen');
+	const closeBtn = document.getElementById('menuClose');
+
+	const setMenuState = (open) => {
+		if (!menu || !openBtn) return;
+		menu.classList.toggle('is-open', open);
+		menu.setAttribute('aria-hidden', open ? 'false' : 'true');
+		openBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+		if (open) {
+			const firstItem = menu.querySelector('.menu__item');
+			firstItem && firstItem.focus && firstItem.focus();
+		} else {
+			openBtn.focus && openBtn.focus();
+		}
+	};
+
+	openBtn && openBtn.addEventListener('click', () => setMenuState(true));
+	closeBtn && closeBtn.addEventListener('click', () => setMenuState(false));
+	document.addEventListener('keydown', (e) => {
+		if (e.key === 'Escape') setMenuState(false);
+	});
+
+    /*Carousel*/
 	const carousel = document.querySelector('.carousel');
 	if (!carousel) return;
 
