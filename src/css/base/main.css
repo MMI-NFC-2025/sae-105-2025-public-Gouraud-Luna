@@ -1,3 +1,7 @@
+.body{
+    background-color: var(--cream);
+}
+
 .hero__home{
     background-image: url(/assets/Image/hero.webp);
     background-size: cover;
@@ -10,14 +14,17 @@
     padding-bottom: 30px;
 }
 .hero__button {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 344px;
     padding: 12px 32px;
     border: 0;
     border-radius: 20px;
     background: linear-gradient(180deg, var(--orange, #d68a1f), var(--brown, #6a3a0b));
-    color: #fff;
-    font-weight: 600;
+    color: var(--cream);
+    font-family: var(--font-ensemble);
     cursor: pointer;
-    font-size: 1rem;
+    font-size: var(--text-btn);
 }
 
 .carousel {
