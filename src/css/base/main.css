@@ -1,4 +1,4 @@
-.body{
+body {
     background-color: var(--cream);
 }
 
@@ -181,7 +181,7 @@
 
 .decouvrir-festival__item .btn {
     width: 100%;
-    background: linear-gradient(135deg, var(--brown, #6a3a0b), #5a2e00);
+    background-color: var(--brown);
     color: #fff;
     font-weight: 700;
     font-size: 1.15rem;
